@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="speedcontrol_Ahmed_Wageh_AbdElAziz" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/speedcontrol_Ahmed_Wageh_AbdElAziz" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/speedcontrol_Ahmed_Wageh_AbdElAziz" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="source/File If/FileIf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="source/File If/FileIf.h" />
+		<Unit filename="source/Motor/Motor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="source/Motor/Motor.h" />
+		<Unit filename="source/Parse/Parse.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="source/Parse/Parse.h" />
+		<Unit filename="source/Speed Control/SpeedControl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="source/Speed Control/SpeedControl.h" />
+		<Unit filename="source/Switches/Switches.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="source/Switches/Switches.h" />
+		<Unit filename="source/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/fake switch/fake_switch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/fake switch/fake_switch.h" />
+		<Unit filename="test/fake switch/fake_switch_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/motor test/motorTest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/parse test/parse test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/speed control test/speed_control_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/unity.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/unity.h" />
+		<Unit filename="test/unity/unity_fixture.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/unity_fixture.h" />
+		<Unit filename="test/unity/unity_fixture_internals.h" />
+		<Unit filename="test/unity/unity_internals.h" />
+		<Unit filename="test/unity/unity_memory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/unity/unity_memory.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

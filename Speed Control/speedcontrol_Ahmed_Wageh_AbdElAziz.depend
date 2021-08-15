@@ -1,0 +1,358 @@
+# depslib dependency file v1.0
+1614600442 source:e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol_ahmed_wageh_abdelaziz\main.c
+	<stdio.h>
+	<stdlib.h>
+	"FileIf.h"
+
+1614600908 e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol_ahmed_wageh_abdelaziz\fileif.h
+	<stdio.h>
+
+1614600862 source:e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol_ahmed_wageh_abdelaziz\fileif.c
+	"FileIf.h"
+	<string.h>
+
+1614612860 source:e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol_ahmed_wageh_abdelaziz\source\file if\fileif.c
+	"FileIf.h"
+	<string.h>
+
+1614612860 e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol_ahmed_wageh_abdelaziz\source\file if\fileif.h
+	<stdio.h>
+
+1614709575 source:e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol_ahmed_wageh_abdelaziz\source\parse\parse.c
+	<string.h>
+	"Parse.h"
+
+1614710029 e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol_ahmed_wageh_abdelaziz\source\parse\parse.h
+	"../Switches/Switches.h"
+
+1614763903 e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol_ahmed_wageh_abdelaziz\source\switches\switches.h
+
+1614724816 source:e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol_ahmed_wageh_abdelaziz\source\motor\motor.c
+	"Motor.h"
+	"../File If/FileIf.h"
+
+1614612860 e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol_ahmed_wageh_abdelaziz\source\motor\motor.h
+
+1614710116 source:e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol_ahmed_wageh_abdelaziz\source\speed control\speedcontrol.c
+	"../Switches/Switches.h"
+	"../Motor/Motor.h"
+	"SpeedControl.h"
+
+1614680605 e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol_ahmed_wageh_abdelaziz\source\speed control\speedcontrol.h
+
+1614764005 source:e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol_ahmed_wageh_abdelaziz\source\switches\switches.c
+	<stdio.h>
+	<string.h>
+	"Switches.h"
+	"../File If/FileIf.h"
+	"../Parse/Parse.h"
+
+1614731656 source:e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol_ahmed_wageh_abdelaziz\source\main.c
+	<stdio.h>
+	<stdlib.h>
+	"File If/FileIf.h"
+	"Motor/Motor.h"
+	"Switches/Switches.h"
+	"Speed Control/SpeedControl.h"
+	"../test/unity/unity_fixture.h"
+
+1578842215 e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol_ahmed_wageh_abdelaziz\test\unity\unity_fixture.h
+	"unity.h"
+	"unity_internals.h"
+	"unity_fixture_internals.h"
+	"unity_memory.h"
+
+1577326492 e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol_ahmed_wageh_abdelaziz\test\unity\unity.h
+	"unity_internals.h"
+
+1577326492 e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol_ahmed_wageh_abdelaziz\test\unity\unity_internals.h
+	"unity_config.h"
+	<setjmp.h>
+	<math.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdint.h>
+	<limits.h>
+	<stdio.h>
+	<stdio.h>
+	<time.h>
+	<time.h>
+
+1577326492 e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol_ahmed_wageh_abdelaziz\test\unity\unity_fixture_internals.h
+
+1577326492 e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol_ahmed_wageh_abdelaziz\test\unity\unity_memory.h
+	<stddef.h>
+	<stdlib.h>
+
+1577326492 source:e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol_ahmed_wageh_abdelaziz\test\unity\unity.c
+	"unity.h"
+	<stddef.h>
+	<avr/pgmspace.h>
+
+1614731398 source:e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol_ahmed_wageh_abdelaziz\test\unity\unity_fixture.c
+	"unity_fixture.h"
+	"unity_internals.h"
+	<string.h>
+
+1577326492 source:e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol_ahmed_wageh_abdelaziz\test\unity\unity_memory.c
+	"unity.h"
+	"unity_memory.h"
+	<string.h>
+	<stdlib.h>
+
+1614712229 source:e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol_ahmed_wageh_abdelaziz\test\parse test\parse test.c
+	<stdio.h>
+	<string.h>
+	"../../source/Parse/Parse.h"
+	"../unity/unity_fixture.h"
+
+1614718054 source:e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol_ahmed_wageh_abdelaziz\test\fake switch\fake_switch.c
+	"fake_switch.h"
+
+1614722877 e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol_ahmed_wageh_abdelaziz\test\fake switch\fake_switch.h
+	"../../source/Switches/Switches.h"
+
+1614718225 source:e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol_ahmed_wageh_abdelaziz\test\fake switch\fake_switch_test.c
+	"fake_switch.h"
+	"../unity/unity_fixture.h"
+
+1614725141 source:e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol_ahmed_wageh_abdelaziz\test\motor test\motor test.c
+	"../../source/Motor/Motor.h"
+	"../unity/unity_fixture.h"
+
+1614764310 source:e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol_ahmed_wageh_abdelaziz\test\speed control test\speed_control_test.c
+	"../../source/Motor/Motor.h"
+	"../fake switch/fake_switch.h"
+	"../../source/Speed Control/SpeedControl.h"
+	"../unity/unity_fixture.h"
+
+1615110085 source:e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol\speedcontrol_ahmed_wageh_abdelaziz\test\fake switch\fake_switch.c
+	"fake_switch.h"
+
+1615110088 e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol\speedcontrol_ahmed_wageh_abdelaziz\test\fake switch\fake_switch.h
+	"../../source/Switches/Switches.h"
+
+1615109006 e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol\speedcontrol_ahmed_wageh_abdelaziz\source\switches\switches.h
+
+1615110424 source:e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol\speedcontrol_ahmed_wageh_abdelaziz\test\fake switch\fake_switch_test.c
+	"fake_switch.h"
+	"../unity/unity_fixture.h"
+
+1578842215 e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol\speedcontrol_ahmed_wageh_abdelaziz\test\unity\unity_fixture.h
+	"unity.h"
+	"unity_internals.h"
+	"unity_fixture_internals.h"
+	"unity_memory.h"
+
+1577326492 e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol\speedcontrol_ahmed_wageh_abdelaziz\test\unity\unity.h
+	"unity_internals.h"
+
+1577326492 e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol\speedcontrol_ahmed_wageh_abdelaziz\test\unity\unity_internals.h
+	"unity_config.h"
+	<setjmp.h>
+	<math.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdint.h>
+	<limits.h>
+	<stdio.h>
+	<stdio.h>
+	<time.h>
+	<time.h>
+
+1577326492 e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol\speedcontrol_ahmed_wageh_abdelaziz\test\unity\unity_fixture_internals.h
+
+1577326492 e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol\speedcontrol_ahmed_wageh_abdelaziz\test\unity\unity_memory.h
+	<stddef.h>
+	<stdlib.h>
+
+1614987405 source:e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol\speedcontrol_ahmed_wageh_abdelaziz\test\parse test\parse test.c
+	<stdio.h>
+	<string.h>
+	"../../source/Parse/Parse.h"
+	"../unity/unity_fixture.h"
+
+1614776644 e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol\speedcontrol_ahmed_wageh_abdelaziz\source\parse\parse.h
+	"../Switches/Switches.h"
+
+1615121102 source:e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol\speedcontrol_ahmed_wageh_abdelaziz\test\speed control test\speed_control_test.c
+	"../../source/Motor/Motor.h"
+	"../fake switch/fake_switch.h"
+	"../../source/Speed Control/SpeedControl.h"
+	"../unity/unity_fixture.h"
+
+1615024824 e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol\speedcontrol_ahmed_wageh_abdelaziz\source\motor\motor.h
+
+1614781917 e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol\speedcontrol_ahmed_wageh_abdelaziz\source\speed control\speedcontrol.h
+
+1577326492 source:e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol\speedcontrol_ahmed_wageh_abdelaziz\test\unity\unity.c
+	"unity.h"
+	<stddef.h>
+	<avr/pgmspace.h>
+
+1614731398 source:e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol\speedcontrol_ahmed_wageh_abdelaziz\test\unity\unity_fixture.c
+	"unity_fixture.h"
+	"unity_internals.h"
+	<string.h>
+
+1577326492 source:e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol\speedcontrol_ahmed_wageh_abdelaziz\test\unity\unity_memory.c
+	"unity.h"
+	"unity_memory.h"
+	<string.h>
+	<stdlib.h>
+
+1614988685 source:e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol\speedcontrol_ahmed_wageh_abdelaziz\source\file if\fileif.c
+	"FileIf.h"
+	<string.h>
+
+1614773452 e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol\speedcontrol_ahmed_wageh_abdelaziz\source\file if\fileif.h
+	<stdio.h>
+
+1614903101 source:e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol\speedcontrol_ahmed_wageh_abdelaziz\source\main.c
+	<stdio.h>
+	<stdlib.h>
+	"File If/FileIf.h"
+	"Motor/Motor.h"
+	"Switches/Switches.h"
+	"Speed Control/SpeedControl.h"
+	"../test/unity/unity_fixture.h"
+
+1615024824 source:e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol\speedcontrol_ahmed_wageh_abdelaziz\source\motor\motor.c
+	"Motor.h"
+	"../File If/FileIf.h"
+
+1614777161 source:e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol\speedcontrol_ahmed_wageh_abdelaziz\source\parse\parse.c
+	<string.h>
+	"Parse.h"
+
+1615112194 source:e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol\speedcontrol_ahmed_wageh_abdelaziz\source\speed control\speedcontrol.c
+	"../Switches/Switches.h"
+	"../Motor/Motor.h"
+	"SpeedControl.h"
+
+1615111600 source:e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol\speedcontrol_ahmed_wageh_abdelaziz\source\switches\switches.c
+	<stdio.h>
+	<string.h>
+	"Switches.h"
+	"../File If/FileIf.h"
+	"../Parse/Parse.h"
+
+1615111134 source:e:\elec\work\swift act internship task\vacuum cleaner\speedcontrol\speedcontrol_ahmed_wageh_abdelaziz\test\motor test\motor test.c
+	"../../source/Motor/Motor.h"
+	"../unity/unity_fixture.h"
+
+1614988685 source:e:\new folder\speedcontrol_ahmed_wageh_abdelaziz\source\file if\fileif.c
+	"FileIf.h"
+	<string.h>
+
+1614773452 e:\new folder\speedcontrol_ahmed_wageh_abdelaziz\source\file if\fileif.h
+	<stdio.h>
+
+1615121503 source:e:\new folder\speedcontrol_ahmed_wageh_abdelaziz\source\main.c
+	<stdio.h>
+	<stdlib.h>
+	"File If/FileIf.h"
+	"Motor/Motor.h"
+	"Switches/Switches.h"
+	"Speed Control/SpeedControl.h"
+	"../test/unity/unity_fixture.h"
+
+1615024824 e:\new folder\speedcontrol_ahmed_wageh_abdelaziz\source\motor\motor.h
+
+1615109006 e:\new folder\speedcontrol_ahmed_wageh_abdelaziz\source\switches\switches.h
+
+1614781917 e:\new folder\speedcontrol_ahmed_wageh_abdelaziz\source\speed control\speedcontrol.h
+
+1578842215 e:\new folder\speedcontrol_ahmed_wageh_abdelaziz\test\unity\unity_fixture.h
+	"unity.h"
+	"unity_internals.h"
+	"unity_fixture_internals.h"
+	"unity_memory.h"
+
+1577326492 e:\new folder\speedcontrol_ahmed_wageh_abdelaziz\test\unity\unity.h
+	"unity_internals.h"
+
+1577326492 e:\new folder\speedcontrol_ahmed_wageh_abdelaziz\test\unity\unity_internals.h
+	"unity_config.h"
+	<setjmp.h>
+	<math.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdint.h>
+	<limits.h>
+	<stdio.h>
+	<stdio.h>
+	<time.h>
+	<time.h>
+
+1577326492 e:\new folder\speedcontrol_ahmed_wageh_abdelaziz\test\unity\unity_fixture_internals.h
+
+1577326492 e:\new folder\speedcontrol_ahmed_wageh_abdelaziz\test\unity\unity_memory.h
+	<stddef.h>
+	<stdlib.h>
+
+1615024824 source:e:\new folder\speedcontrol_ahmed_wageh_abdelaziz\source\motor\motor.c
+	"Motor.h"
+	"../File If/FileIf.h"
+
+1614777161 source:e:\new folder\speedcontrol_ahmed_wageh_abdelaziz\source\parse\parse.c
+	<string.h>
+	"Parse.h"
+
+1614776644 e:\new folder\speedcontrol_ahmed_wageh_abdelaziz\source\parse\parse.h
+	"../Switches/Switches.h"
+
+1615112194 source:e:\new folder\speedcontrol_ahmed_wageh_abdelaziz\source\speed control\speedcontrol.c
+	"../Switches/Switches.h"
+	"../Motor/Motor.h"
+	"SpeedControl.h"
+
+1615111600 source:e:\new folder\speedcontrol_ahmed_wageh_abdelaziz\source\switches\switches.c
+	<stdio.h>
+	<string.h>
+	"Switches.h"
+	"../File If/FileIf.h"
+	"../Parse/Parse.h"
+
+1615110085 source:e:\new folder\speedcontrol_ahmed_wageh_abdelaziz\test\fake switch\fake_switch.c
+	"fake_switch.h"
+
+1615110088 e:\new folder\speedcontrol_ahmed_wageh_abdelaziz\test\fake switch\fake_switch.h
+	"../../source/Switches/Switches.h"
+
+1615110424 source:e:\new folder\speedcontrol_ahmed_wageh_abdelaziz\test\fake switch\fake_switch_test.c
+	"fake_switch.h"
+	"../unity/unity_fixture.h"
+
+1615111134 source:e:\new folder\speedcontrol_ahmed_wageh_abdelaziz\test\motor test\motor test.c
+	"../../source/Motor/Motor.h"
+	"../unity/unity_fixture.h"
+
+1614987405 source:e:\new folder\speedcontrol_ahmed_wageh_abdelaziz\test\parse test\parse test.c
+	<stdio.h>
+	<string.h>
+	"../../source/Parse/Parse.h"
+	"../unity/unity_fixture.h"
+
+1615121102 source:e:\new folder\speedcontrol_ahmed_wageh_abdelaziz\test\speed control test\speed_control_test.c
+	"../../source/Motor/Motor.h"
+	"../fake switch/fake_switch.h"
+	"../../source/Speed Control/SpeedControl.h"
+	"../unity/unity_fixture.h"
+
+1577326492 source:e:\new folder\speedcontrol_ahmed_wageh_abdelaziz\test\unity\unity.c
+	"unity.h"
+	<stddef.h>
+	<avr/pgmspace.h>
+
+1614731398 source:e:\new folder\speedcontrol_ahmed_wageh_abdelaziz\test\unity\unity_fixture.c
+	"unity_fixture.h"
+	"unity_internals.h"
+	<string.h>
+
+1577326492 source:e:\new folder\speedcontrol_ahmed_wageh_abdelaziz\test\unity\unity_memory.c
+	"unity.h"
+	"unity_memory.h"
+	<string.h>
+	<stdlib.h>
+
